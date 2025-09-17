@@ -1,0 +1,29 @@
+<html lang="en">
+    <head> 
+        <meta>SURVEY FORM</meta> <br><br>
+           <title>Survey Form Example</title>
+         </head>
+    <body>
+        <h2>Customer Satisfaction Survey</h2>
+        <form action="/submit_survey" method="post">
+            <label>What are your favorite programming languages?</label><br>
+            <input type="checkbox" id="python" name="languages" value="Python">
+            <label for="python">Python</label><br>
+            <input type="checkbox" id="javascript" name="languages" value="JavaScript">
+            <label for="javascript">JavaScript</label><br>
+            <input type="checkbox" id="java" name="languages" value="Java">
+            <label for="java">Java</label><br><br>
+            <input type="checkbox" id="cpp" name="languages" value="cpp">
+            <label for="cpp">C++</label><br><br>
+
+            <label>how many years of experience do you have in programming?</label><br>
+            <select id="experience" name="experience">
+                <option value="0-1">0-1 years</option>
+                <option value="1-3">1-3 years</option>
+                <option value="3-5">3-5 years</option>
+                <option value="5+">5+ years</option>
+            </select><br><br>
+            <button type="submit">Submit Survey</button>
+        </form>
+    </body>
+</html>
